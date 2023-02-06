@@ -5,7 +5,7 @@ var config_data = `
   "checkboxAs": "10",
   "enable_google_sheets": "true",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Idiot",
       "code": "s",
       "gsCol": "scouter",
       "type": "scouter",
@@ -68,7 +68,7 @@ var config_data = `
       "type": "field_image",
       "filename": "2023/field_image.png",
       "clickRestriction": "one",
-      "shape": "circle 5 black green true"
+      "shape": "circle 5 black red true"
     }
   ],
   "auton": [
