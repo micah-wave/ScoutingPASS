@@ -29,7 +29,14 @@ var config_data = `
       "defaultValue": "qm",
       "required": "true"
     },
-    { "name": "Match #",
+    { "name": "Preload Piece",
+      "code": "p",
+      "type": "preload",
+      "choices": {
+        "cb": "Cube<br>",
+        "cn": "Cone<br>",
+      },
+    { "name": "Match #",z
       "code": "m",
       "type": "match",
       "min": 1,
@@ -74,14 +81,6 @@ var config_data = `
       "showFlip": "false",
       "showUndo": "false",
       "shape": "circle 12 black red true"
-    },
-    { "name": "Crossed Cable",
-      "code": "acc",
-      "type": "bool"
-    },
-    { "name": "Crossed Charging Station",
-      "code": "acs",
-      "type": "bool"
     },
     { "name": "Mobility?",
       "code": "am",
